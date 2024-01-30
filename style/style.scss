@@ -1,0 +1,80 @@
+body {
+    background: black;
+    font-family: Helvetica, 'Segoe UI', sans-serif;
+    color: white;
+    margin: 0;
+    
+}
+
+.topbar {
+    padding: 13px 20px;
+    display: flex;
+    justify-content: right;
+
+    .hour {
+       position: absolute;
+       left: 0;
+       margin-left: 22.5px ;
+        
+
+    }
+
+    .phone-logo{
+        
+        img{
+            margin: 0px 2.5px ;
+        }
+    }
+}
+
+.main{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    
+    .logo{
+        
+        text-align: center;
+        @keyframes fadeIn {
+            0% {
+              opacity: 0;
+              transform: scale(0.5); /* Optionnel : commencez avec une petite échelle */
+            }
+            100% {
+              opacity: 1;
+              transform: scale(1);
+            }
+          }
+          
+          @keyframes fadeOut {
+            0% {
+              opacity: 1;
+              transform: scale(1);
+            }
+            100% {
+              opacity: 0;
+              transform: scale(0.5); /* Optionnel : finissez avec une petite échelle */
+            }
+          }
+          
+          
+            animation: fadeIn 4s ease-in-out; /* Utilisez le keyframe "fadeIn" avec une durée de 4 secondes */
+            animation-delay: 0s; /* Démarrez immédiatement */
+          
+            animation-name: fadeIn, fadeOut; /* Utilisez les deux animations successivement */
+            animation-duration: 4s, 4s; /* Durée de chaque animation */
+            animation-delay: 0s, 4s; /* Pause entre les deux animations */
+            animation-timing-function: ease-in-out, ease-in-out; /* Fonction de synchronisation pour les deux animations */
+          
+
+    }
+}
+
+.footer{
+    text-align: center;
+    
+    
+}
