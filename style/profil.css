@@ -8,6 +8,9 @@ body {
   line-height: 27px;
   letter-spacing: 0.676px;
 }
+body p {
+  font-family: "Segoe UI", sans-serif;
+}
 
 .topbar {
   padding: 13px 20px;
@@ -17,7 +20,7 @@ body {
 .topbar .hour {
   position: absolute;
   left: 0;
-  margin-left: 22.5px;
+  margin-left: 35px;
 }
 .topbar .phone-logo img {
   margin: 0px 2.5px;
@@ -109,10 +112,6 @@ body {
   text-decoration: none;
   color: white;
 }
-.main .container-profils .profils .profil:hover {
-  scale: 1.1;
-  transition: 0.5s;
-}
 .main .container-profils .profils .profil p {
   margin: 0px;
 }
@@ -123,6 +122,12 @@ body {
 
 .footer {
   text-align: center;
+}
+.footer .container-ib {
+  order: 1;
+  background: black;
+  height: 18px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=profil.css.map */

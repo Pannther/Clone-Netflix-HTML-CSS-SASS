@@ -3,6 +3,10 @@ body {
     font-family: Helvetica, 'Segoe UI', sans-serif;
     color: white;
     margin: 0;
+
+    p{
+        font-family: 'Segoe UI', sans-serif;
+    }
     
 }
 
@@ -14,7 +18,7 @@ body {
     .hour {
        position: absolute;
        left: 0;
-       margin-left: 22.5px ;
+       margin-left: 35px ;
         
 
     }
@@ -75,6 +79,12 @@ body {
 
 .footer{
     text-align: center;
+    .container-ib{
+        order: 1;
+        background: black;
+        height: 18px;
+        width: 100%;
+    }
     
     
 }

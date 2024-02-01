@@ -4,26 +4,28 @@ body {
     color: white;
     margin: 0;
 
+    p{
+        font-family: 'Segoe UI', sans-serif;
+    }
+
 }
 
 .topbar {
-    position: fixed;
     width: 100%;
+    position: absolute;
 
     .topbar-phone {
         width: 100%;
-        padding: 13px 0px;
+        margin: 13px 0px;
         display: flex;
         justify-content: right;
-
-
+        position: fixed;
+        
 
         .hour {
             position: absolute;
             left: 0;
-            margin-left: 22.5px;
-
-
+            margin-left: 35px;
         }
 
         .phone-logo {
@@ -39,8 +41,8 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding-right: 15px;
-
+        margin-right:10px ;
+        margin-top: 45px ;
 
         a {
             font-size: 17.2px;
@@ -62,6 +64,7 @@ body {
 }
 
 .main {
+    
 
     .background-serie {
         display: flex;
@@ -75,16 +78,12 @@ body {
         a {
             text-decoration: none;
             color: #FFFFFF;
-
-            &:hover {
-                scale: (1.1);
-            }
         }
 
 
         .my-list {
             text-align: center;
-            margin: 0px 41px 0px 52px;
+            margin: 0px 38px 0px 48px;
 
             p {
                 margin: 0px;
@@ -94,7 +93,7 @@ body {
 
         .info {
             text-align: center;
-            margin: 0px 62px 0px 41px;
+            margin: 0px 48px 0px 38px;
 
             p {
                 margin: 0px;
@@ -102,10 +101,7 @@ body {
 
         }
 
-
-
         .play {
-
             background: #C4C4C4;
             height: 45px;
             width: 110px;
@@ -117,10 +113,83 @@ body {
             img {
                 height: 30px;
                 width: 72px;
-
             }
         }
     }
+
+    .preview {
+        h2 {
+            margin: 42px 0px 0px 16px;
+            font-size: 26.748px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        .bulle {
+            text-align: right;
+            display: flex;
+            justify-content: space-between;
+            margin: 22px 0px 28px 0px;
+
+            a {
+                &:nth-last-child(4) {
+                    margin-left: 10px;
+                }
+            }
+        }
+
+
+    }
+
+    h3 {
+        margin: 22px 0px 14px 16px;
+        font-size: 20.921px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: -0.057px;
+    }
+
+    .cwf-panther {
+        h3 {
+            margin: 28px 0px 22px 16px;
+            font-size: 20.921px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -0.057px;
+        }
+
+        .serie {
+            text-align: right;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                &:nth-last-child(4) {
+                    margin-left: 10px;
+                }
+            }
+        }
+
+    }
+
+    .popular-on-netflix,.trending-now {
+        
+
+        .serie {
+            text-align: right;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+
+                &:nth-last-child(4) {
+                    margin-left: 10px;
+                }
+            }
+        }
+
+    }
+
 }
 
 .footer {
@@ -142,28 +211,24 @@ body {
         justify-content: space-around;
         align-items: center;
 
-
         .bb-element {
-
             opacity: 0.6;
 
-            &:hover {
+            &:nth-last-child(5){
                 opacity: 1;
             }
-
-
-
 
             p {
                 margin: 3px 0px;
             }
         }
+    }
 
-
-
-
-
-
+    .container-ib {
+        order: 1;
+        background: black;
+        height: 18px;
+        width: 100%;
     }
 
 }

@@ -4,21 +4,25 @@ body {
   color: white;
   margin: 0;
 }
+body p {
+  font-family: "Segoe UI", sans-serif;
+}
 
 .topbar {
-  position: fixed;
   width: 100%;
+  position: absolute;
 }
 .topbar .topbar-phone {
   width: 100%;
-  padding: 13px 0px;
+  margin: 13px 0px;
   display: flex;
   justify-content: right;
+  position: fixed;
 }
 .topbar .topbar-phone .hour {
   position: absolute;
   left: 0;
-  margin-left: 22.5px;
+  margin-left: 35px;
 }
 .topbar .topbar-phone .phone-logo {
   margin-right: 15px;
@@ -30,7 +34,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-right: 15px;
+  margin-right: 10px;
+  margin-top: 45px;
 }
 .topbar nav a {
   font-size: 17.2px;
@@ -58,19 +63,16 @@ body {
   text-decoration: none;
   color: #FFFFFF;
 }
-.main .background-serie a:hover {
-  scale: 1.1;
-}
 .main .background-serie .my-list {
   text-align: center;
-  margin: 0px 41px 0px 52px;
+  margin: 0px 38px 0px 48px;
 }
 .main .background-serie .my-list p {
   margin: 0px;
 }
 .main .background-serie .info {
   text-align: center;
-  margin: 0px 62px 0px 41px;
+  margin: 0px 48px 0px 38px;
 }
 .main .background-serie .info p {
   margin: 0px;
@@ -87,6 +89,51 @@ body {
 .main .background-serie .play img {
   height: 30px;
   width: 72px;
+}
+.main .preview h2 {
+  margin: 42px 0px 0px 16px;
+  font-size: 26.748px;
+  font-style: normal;
+  font-weight: 700;
+}
+.main .preview .bulle {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 0px 28px 0px;
+}
+.main .preview .bulle a:nth-last-child(4) {
+  margin-left: 10px;
+}
+.main h3 {
+  margin: 22px 0px 14px 16px;
+  font-size: 20.921px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.057px;
+}
+.main .cwf-panther h3 {
+  margin: 28px 0px 22px 16px;
+  font-size: 20.921px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.057px;
+}
+.main .cwf-panther .serie {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+.main .cwf-panther .serie a:nth-last-child(4) {
+  margin-left: 10px;
+}
+.main .popular-on-netflix .serie, .main .trending-now .serie {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+.main .popular-on-netflix .serie a:nth-last-child(4), .main .trending-now .serie a:nth-last-child(4) {
+  margin-left: 10px;
 }
 
 .footer {
@@ -111,11 +158,17 @@ body {
 .footer .bottom-bar .bb-element {
   opacity: 0.6;
 }
-.footer .bottom-bar .bb-element:hover {
+.footer .bottom-bar .bb-element:nth-last-child(5) {
   opacity: 1;
 }
 .footer .bottom-bar .bb-element p {
   margin: 3px 0px;
+}
+.footer .container-ib {
+  order: 1;
+  background: black;
+  height: 18px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=home.css.map */

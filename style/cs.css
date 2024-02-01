@@ -1,0 +1,184 @@
+body {
+  background: black;
+  font-family: Helvetica, "Segoe UI", sans-serif;
+  color: white;
+  margin: 0;
+}
+body p {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.topbar {
+  width: 100%;
+  position: fixed;
+}
+.topbar .topbar-phone {
+  width: 100%;
+  margin: 13px 0px;
+  display: flex;
+  justify-content: right;
+}
+.topbar .topbar-phone .hour {
+  position: absolute;
+  left: 0;
+  margin-left: 35px;
+}
+.topbar .topbar-phone .phone-logo {
+  margin-right: 15px;
+}
+.topbar .topbar-phone .phone-logo img {
+  margin: 0px 2.5px;
+}
+.topbar .search-bar {
+  width: 100%;
+  height: 52px;
+  background: #424242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar .search-bar input#search-bar {
+  background: none;
+  border: none;
+  width: 244px;
+  height: 33px;
+  font-size: 15.213px;
+  font-style: normal;
+  font-weight: 400;
+  color: #C4C4C4;
+}
+
+.main .notification {
+  display: flex;
+  padding-top: 57px;
+  margin-bottom: 21px;
+}
+.main .notification h1 {
+  margin: 0;
+  font-size: 16.906px;
+  font-style: normal;
+  font-weight: 700;
+}
+.main .notification img {
+  margin: 0px 7px 0px 15px;
+}
+.main .serie {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 14.722px;
+  font-style: normal;
+  font-weight: 400;
+  background: #424242;
+  height: 65px;
+}
+.main .serie img {
+  margin-left: 12px;
+}
+.main .serie ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 30px;
+}
+.main .serie ul li {
+  margin: 3.5px 0px;
+}
+.main .serie ul li:nth-last-child(1) {
+  font-size: 10.51px;
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.48);
+}
+.main .serie ul li:nth-last-child(2) {
+  color: rgba(255, 255, 255, 0.83);
+  font-size: 13.72px;
+  font-style: normal;
+  font-weight: 500;
+}
+.main .serie ul li:nth-last-child(3) {
+  color: rgb(255, 255, 255);
+  font-size: 13.72px;
+  font-style: normal;
+  font-weight: 500;
+}
+.main .banniere {
+  margin: 25px 0px 20px 0px;
+}
+.main .banniere img {
+  width: 100%;
+  height: 195px;
+}
+.main .container-serie {
+  padding: 0px 12px;
+}
+.main .container-serie .b-serie {
+  text-align: right;
+  margin-right: 13px;
+}
+.main .container-serie .description-serie .date {
+  font-size: 11.398px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.83);
+}
+.main .container-serie .description-serie p {
+  font-size: 11.141px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.031px;
+  color: rgba(255, 255, 255, 0.83);
+}
+.main .container-serie .description-serie h2 {
+  font-size: 18.662px;
+  font-style: normal;
+  font-weight: 700;
+}
+.main .container-serie .description-serie ul {
+  font-size: 11.398px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 0 0 12px;
+  justify-content: space-between;
+}
+.main .bottom {
+  height: 70px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer .bottom-bar {
+  background: #121212;
+  padding-top: 10px;
+  font-size: 8.2px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10.4px;
+  letter-spacing: 0.26px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .bottom-bar .bb-element {
+  opacity: 0.6;
+}
+.footer .bottom-bar .bb-element:nth-last-child(3) {
+  opacity: 1;
+}
+.footer .bottom-bar .bb-element p {
+  margin: 3px 0px;
+}
+.footer .container-ib {
+  order: 1;
+  background: black;
+  height: 18px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=cs.css.map */

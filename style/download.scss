@@ -1,0 +1,176 @@
+body {
+    background: black;
+    font-family: Helvetica, 'Segoe UI', sans-serif;
+    color: white;
+    margin: 0;
+
+    p{
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+}
+
+.topbar {
+    width: 100%;
+    position: fixed;
+
+    .topbar-phone {
+        width: 100%;
+        margin: 13px 0px;
+        display: flex;
+        justify-content: right;
+
+
+        .hour {
+            position: absolute;
+            left: 0;
+            margin-left: 35px;
+        }
+
+        .phone-logo {
+            margin-right: 15px;
+
+            img {
+                margin: 0px 2.5px;
+            }
+        }
+    }
+
+    .search-bar {
+        width: 100%;
+        height: 52px;
+        background: #424242;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input#search-bar {
+            background: none;
+            border: none;
+            width: 244px;
+            height: 33px;
+            font-size: 15.213px;
+            font-style: normal;
+            font-weight: 400;
+            color: #C4C4C4;
+        }
+
+    }
+}
+
+
+
+.main {
+    padding-top: 54px;
+    margin: 0px 15px;
+
+    .container-download {
+        .sd {
+            margin-left: 20px;
+            font-size: 14.722px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        p {
+            margin: 14px 0px 9px 0px;
+            font-size: 10.781px;
+            font-style: normal;
+            font-weight: 300;
+        }
+
+
+
+        h1 {
+            font-size: 19.634px;
+            font-style: normal;
+            font-weight: 700;
+            margin: 40px 0px 0px 0px;
+        }
+
+        .content {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            input#setup {
+                width: 353px;
+                height: 40px;
+                background: #0071EB;
+                font-size: 13.859px;
+                font-style: normal;
+                font-weight: 400;
+                color: white;
+                border: none;
+                border-radius: 2px;
+                margin: 20px 0px 50px 0px;
+                padding: 0;
+
+            }
+
+            input#fstd {
+                width: 239px;
+                height: 33px;
+                background: #424242;
+                font-size: 16.2px;
+                font-style: normal;
+                font-weight: 700;
+                color: white;
+                border: none;
+                border-radius: 2px;
+                text-align: center;
+                padding: 0;
+            }
+
+
+        }
+    }
+
+
+
+
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    .bottom-bar {
+        background: #121212;
+        padding-top: 10px;
+        font-size: 8.2px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 10.4px;
+        letter-spacing: 0.26px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .bb-element {
+            opacity: 0.6;
+
+            &:nth-last-child(2) {
+                opacity: 1;
+
+            }
+
+            p {
+                margin: 3px 0px;
+            }
+        }
+    }
+
+    .container-ib {
+        order: 1;
+        background: black;
+        height: 18px;
+        width: 100%;
+    }
+
+}

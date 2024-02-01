@@ -8,6 +8,10 @@ body {
     line-height: 27px;
     letter-spacing: 0.676px;
 
+    p{
+        font-family: 'Segoe UI', sans-serif;
+    }
+
 }
 
 .topbar {
@@ -18,7 +22,7 @@ body {
     .hour {
         position: absolute;
         left: 0;
-        margin-left: 22.5px;
+        margin-left: 35px;
 
 
     }
@@ -128,11 +132,6 @@ body {
                 text-decoration: none;
                 color: white;
 
-                &:hover {
-                    scale: 1.1;
-                    transition: .5s;
-                }
-
                 p {
                     margin: 0px;
                 }
@@ -154,6 +153,12 @@ body {
 
 .footer {
     text-align: center;
+    .container-ib{
+        order: 1;
+        background: black;
+        height: 18px;
+        width: 100%;
+    }
 
 
 }
