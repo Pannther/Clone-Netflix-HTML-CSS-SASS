@@ -29,47 +29,57 @@ body p {
 .topbar .topbar-phone .phone-logo img {
   margin: 0px 2.5px;
 }
-.topbar .search-bar {
-  width: 100%;
-  height: 52px;
-  background: #424242;
+
+.main .container-profils .profils {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 0px 8px;
+  padding-top: 82px;
+}
+.main .container-profils .profils .profil {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .container-profils .profils .profil p {
+  margin: 7px 0px 15px 0px;
+  width: 65px;
+  font-size: 12.35px;
+  font-style: normal;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main .container-mp {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.topbar .search-bar input#search-bar {
-  background: none;
-  border: none;
-  width: 244px;
-  height: 33px;
-  font-size: 15.213px;
-  font-style: normal;
-  font-weight: 400;
-  color: #C4C4C4;
+.main .container-mp img {
+  margin-right: 6px;
+  height: 12px;
 }
-
-.main .top-searches {
-  padding-top: 114px;
-}
-.main .top-searches .serie {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin: 3px 0px;
+.main .container-mp p {
+  margin: 0;
   font-size: 14.722px;
   font-style: normal;
-  font-weight: 400;
-  background: #424242;
+  font-weight: 300;
 }
-.main .top-searches .serie img:nth-last-child(1) {
-  margin-right: 3px;
+.main .container-share {
+  background: #1A1A1A;
+  height: 247px;
 }
-.main .top-searches .serie p {
-  margin-left: 19px;
-  margin-right: auto;
+.main .container-share h1 {
+  font-size: 19.634px;
+  font-style: normal;
+  font-weight: 700;
 }
-.main .bottom {
-  height: 100px;
+.main .container-share p {
+  font-size: 10.781px;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .footer {
@@ -94,7 +104,7 @@ body p {
 .footer .bottom-bar .bb-element {
   opacity: 0.6;
 }
-.footer .bottom-bar .bb-element:nth-last-child(4) {
+.footer .bottom-bar .bb-element:nth-last-child(1) {
   opacity: 1;
 }
 .footer .bottom-bar .bb-element p {
@@ -107,4 +117,4 @@ body p {
   width: 100%;
 }
 
-/*# sourceMappingURL=search.css.map */
+/*# sourceMappingURL=more.css.map */

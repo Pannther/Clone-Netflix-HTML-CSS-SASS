@@ -135,6 +135,9 @@ body p {
 .main .popular-on-netflix .serie a:nth-last-child(4), .main .trending-now .serie a:nth-last-child(4) {
   margin-left: 10px;
 }
+.main .bottom {
+  height: 100px;
+}
 
 .footer {
   position: fixed;
