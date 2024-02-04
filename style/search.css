@@ -11,6 +11,7 @@ body p {
 .topbar {
   width: 100%;
   position: fixed;
+  background: black;
 }
 .topbar .topbar-phone {
   width: 100%;
@@ -46,6 +47,10 @@ body p {
   font-style: normal;
   font-weight: 400;
   color: #C4C4C4;
+}
+.topbar .border {
+  height: 10px;
+  background: black;
 }
 
 .main .top-searches {

@@ -13,6 +13,7 @@ body {
 .topbar {
     width: 100%;
     position: fixed;
+    background: black;
 
     .topbar-phone {
         width: 100%;
@@ -54,8 +55,12 @@ body {
             font-weight: 400;
             color: #C4C4C4;
         }
-
     }
+    .border{
+        height: 10px;
+        background: black;
+    }
+
 }
 
 
@@ -86,7 +91,7 @@ body {
             }
         }
     }
-    
+
     .bottom{
         height: 100px;
     }

@@ -70,8 +70,14 @@ body p {
 .main .container-share {
   background: #1A1A1A;
   height: 247px;
+  padding: 24px 16px;
+}
+.main .container-share .title img {
+  float: left;
+  margin-right: 9px;
 }
 .main .container-share h1 {
+  margin: 0;
   font-size: 19.634px;
   font-style: normal;
   font-weight: 700;
@@ -80,6 +86,28 @@ body p {
   font-size: 10.781px;
   font-style: normal;
   font-weight: 300;
+}
+.main .container-share .ts {
+  text-decoration: underline;
+  color: #C4C4C4;
+}
+.main .container-share input#link {
+  width: 220px;
+  height: 38px;
+  padding: 0 10px;
+  border: none;
+  background: black;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main .container-share input#button {
+  width: 90px;
+  height: 38px;
+  padding: 0;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .footer {
