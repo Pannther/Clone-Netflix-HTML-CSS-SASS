@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/css/home.css">
-    <link rel="stylesheet" href="style/css/navbar-home.css">
+    <link rel="stylesheet" href="style/css/movies.css">
     <link rel="stylesheet" href="style/css/screen-structure.css">
+    <link rel="stylesheet" href="style/css/navbar.css">
+    <link rel="stylesheet" href="style/css/img-background-serie.css">
     <title>Netflix</title>
 </head>
 
@@ -22,14 +24,26 @@
             </div>
         </div>
         <nav>
-            <img src="image/home/netflix-icon.svg" alt="">
-            <a href="tv-shows.html">TV Shows</a>
-            <a href="movies.html">Movies</a>
-            <a href="my-list.html">My List</a>
+            <a href=""><img src="image/home/netflix-icon.svg" alt=""></a>
+            <ul>
+                <li>
+                    <a href="">Movies <img src="image/tv-shows/arrow.png" alt="arrow"></a>
+                    <ul class="hidden">
+                        <a href="home.html">Home</a>
+                        <a href="tv-shows.html">TV Shows</a>
+                        <a href="movies.html">Movies</a>
+                        <a href="my-list.html">My List</a>
+                        <a href="movies.html"><img src="image/tv-shows/cross.png" alt=""></a>
+                    </ul>
+                </li>
+            </ul>
         </nav>
     </header>
-    <div class="background">
-        <img src="image/home/background-serie/background.png" alt="">
+    <div class="container-background">
+        <div class="background">
+            <img src="image/movies/background.png" alt="">
+        </div>
+        <div class="gradient"></div>
     </div>
     <main class="main">
         <div class="background-serie">
@@ -55,7 +69,7 @@
             </div>
         </div>
         <div class="cwf-panther">
-            <h3>Continue watching for Panther</h3>
+            <h3 id="cwfp">Continue watching for Panther</h3>
             <div class="serie">
                 <a href=""><img src="image/home/cwf/1.png" alt=""></a>
                 <a href=""><img src="image/home/cwf/2.png" alt=""></a>
@@ -64,7 +78,7 @@
             </div>
         </div>
         <div class="popular-on-netflix">
-            <h3>Popular on Netflix</h3>
+            <h3 id="pon">Popular on Netflix</h3>
             <div class="serie">
                 <a href=""><img src="image/home/popular-on-netflix/1.png" alt=""></a>
                 <a href=""><img src="image/home/popular-on-netflix/2.png" alt=""></a>
@@ -73,7 +87,7 @@
             </div>
         </div>
         <div class="trending-now">
-            <h3>Trending now</h3>
+            <h3 id="tn">Trending now</h3>
             <div class="serie">
                 <a href=""><img src="image/home/trending-now/1.png" alt=""></a>
                 <a href=""><img src="image/home/trending-now/2.png" alt=""></a>

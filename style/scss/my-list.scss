@@ -1,0 +1,45 @@
+.topbar {
+    nav {
+        li:hover .hidden {
+            a {
+
+                
+
+                &:nth-of-type(4){
+                    opacity: 1;
+                    scale: (1.2);
+                }
+            }
+        }
+    }
+}
+
+.main{
+    padding: 100px 12px ;
+
+    .container-serie{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        img{
+            margin: 4.5px 0px;
+        }
+    }
+}
+
+
+
+.footer .bottom-bar .bb-element {
+    opacity: 0.6;
+
+    &:nth-of-type(1) {
+        opacity: 1;
+    }
+
+    p {
+        margin: 3px 0px;
+    }
+}
+
+

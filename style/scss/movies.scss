@@ -1,0 +1,15 @@
+.topbar {
+    nav {
+        li:hover .hidden {
+            a {
+
+                
+
+                &:nth-of-type(3){
+                    opacity: 1;
+                    scale: (1.2);
+                }
+            }
+        }
+    }
+}

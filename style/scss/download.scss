@@ -1,0 +1,84 @@
+.main {
+    padding-top: 54px;
+    margin: 0px 15px;
+
+    .container-download {
+        .sd {
+            margin-left: 20px;
+            font-size: 14.722px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        p {
+            margin: 14px 0px 9px 0px;
+            font-size: 10.781px;
+            font-style: normal;
+            font-weight: 300;
+        }
+
+
+
+        h1 {
+            font-size: 19.634px;
+            font-style: normal;
+            font-weight: 700;
+            margin: 40px 0px 0px 0px;
+        }
+
+        .content {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            input#setup {
+                width: 353px;
+                height: 40px;
+                background: #0071EB;
+                font-size: 13.859px;
+                font-style: normal;
+                font-weight: 400;
+                color: white;
+                border: none;
+                border-radius: 2px;
+                margin: 20px 0px 50px 0px;
+                padding: 0;
+
+            }
+
+            input#fstd {
+                width: 239px;
+                height: 33px;
+                background: #424242;
+                font-size: 16.2px;
+                font-style: normal;
+                font-weight: 700;
+                color: white;
+                border: none;
+                border-radius: 2px;
+                text-align: center;
+                padding: 0;
+            }
+
+
+        }
+    }
+
+
+
+
+
+}
+
+.footer .bottom-bar .bb-element {
+    opacity: 0.6;
+
+    &:nth-of-type(4) {
+        opacity: 1;
+    }
+
+    p {
+        margin: 3px 0px;
+    }
+}

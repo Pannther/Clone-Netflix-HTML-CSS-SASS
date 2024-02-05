@@ -1,0 +1,60 @@
+body {
+  background: black;
+  font-family: Helvetica, "Segoe UI", sans-serif;
+  color: white;
+  margin: 0;
+}
+body p {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.topbar {
+  width: 100%;
+  position: absolute;
+}
+.topbar .topbar-phone {
+  width: 100%;
+  margin: 13px 0px;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+}
+.topbar .topbar-phone .hour {
+  position: absolute;
+  left: 0;
+  margin-left: 35px;
+}
+.topbar .topbar-phone .phone-logo {
+  margin-right: 15px;
+}
+.topbar .topbar-phone .phone-logo img {
+  margin: 0px 2.5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer .bottom-bar {
+  background: #121212;
+  padding-top: 10px;
+  font-size: 8.2px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10.4px;
+  letter-spacing: 0.26px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .container-ib {
+  order: 1;
+  background: black;
+  height: 18px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=screen-structure.css.map */

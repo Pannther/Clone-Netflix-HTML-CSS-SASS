@@ -1,0 +1,54 @@
+.topbar {
+  z-index: 2;
+}
+.topbar nav {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 45px;
+}
+.topbar nav .hidden {
+  display: none;
+}
+.topbar nav ul {
+  list-style: none;
+  padding: 0;
+}
+.topbar nav li:hover .hidden {
+  background: rgba(0, 0, 0, 0.725);
+  backdrop-filter: blur(6px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 98vh;
+}
+.topbar nav li:hover .hidden a {
+  font-size: 20px;
+  color: white;
+  opacity: 0.6;
+  margin: 12.5px 0px;
+}
+.topbar nav li:hover .hidden a:nth-of-type(5) {
+  opacity: 1;
+}
+.topbar nav li:hover .hidden a img {
+  position: absolute;
+  bottom: 0;
+  left: 40.7%;
+  bottom: 50px;
+}
+.topbar nav a {
+  margin: 0px 10px;
+  font-size: 17.2px;
+  font-weight: 400;
+  letter-spacing: 0.762px;
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=navbar.css.map */
