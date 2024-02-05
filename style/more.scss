@@ -78,6 +78,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 10px;
 
         img {
             margin-right: 6px;
@@ -95,11 +96,11 @@ body {
     .container-share {
         background: #1A1A1A;
         height: 247px;
-        padding: 24px 16px;
+        padding: 24px 16px 0px 16px;
 
-        .title{
-            
-            img{
+        .title {
+
+            img {
                 float: left;
                 margin-right: 9px;
             }
@@ -118,12 +119,12 @@ body {
             font-weight: 300;
         }
 
-        .ts{
+        .ts {
             text-decoration: underline;
-            color: #C4C4C4 ;
+            color: #C4C4C4;
         }
-        
-        input#link{
+
+        input#link {
             width: 220px;
             height: 38px;
             padding: 0 10px;
@@ -133,16 +134,86 @@ body {
             text-align: center;
             overflow: hidden;
             text-overflow: ellipsis;
+            border-radius: 2px;
         }
 
-        input#button{
+        input#button {
             width: 90px;
             height: 38px;
             padding: 0;
             font-size: 17px;
+            border-radius: 2px;
+            border: none;
             font-weight: bold;
 
         }
+
+        .social-media {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 41px;
+            margin: 20px 10px 0px 10px;
+
+            a {
+
+                .wts {
+                    scale: (1.4);
+                }
+
+            }
+        }
+
+        .v-bar {
+            background: #ffffff;
+            width: 1px;
+            height: 41px;
+        }
+
+
+
+    }
+
+    h2 {
+        font-size: 14.72px;
+        font-weight: 300;
+    }
+
+    .my-list {
+        display: flex;
+        align-items: center;
+        margin: 6px 0px 6px 25px;
+
+        h2{
+            margin: 0;
+        }
+
+        img {
+            margin-right: 8px;
+        }
+    }
+
+    .h-bar{
+        background: #424242;
+        height: 1px;
+        width: 100%;
+
+    }
+
+    
+
+    .container-bottom {
+        margin: 0px 0px 100px 25px;
+
+        h2{
+            margin: 13.5px 0px;
+
+            &:nth-last-child(4){
+                margin-top: 22.5px;
+            }
+        }
+
+
     }
 
 
