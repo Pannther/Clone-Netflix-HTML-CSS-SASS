@@ -1,0 +1,196 @@
+body {
+  background: black;
+  font-family: Helvetica, "Segoe UI", sans-serif;
+  color: white;
+  margin: 0;
+}
+body p {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.topbar {
+  width: 100%;
+  position: fixed;
+}
+.topbar .topbar-phone {
+  width: 100%;
+  margin: 13px 0px;
+  display: flex;
+  justify-content: right;
+}
+.topbar .topbar-phone .hour {
+  position: absolute;
+  left: 0;
+  margin-left: 35px;
+}
+.topbar .topbar-phone .phone-logo {
+  margin-right: 15px;
+}
+.topbar .topbar-phone .phone-logo img {
+  margin: 0px 2.5px;
+}
+
+.main .container-profils .profils {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 0px 8px;
+  padding-top: 82px;
+}
+.main .container-profils .profils .profil {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .container-profils .profils .profil p {
+  margin: 7px 0px 15px 0px;
+  width: 65px;
+  font-size: 12.35px;
+  font-style: normal;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main .container-mp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main .container-mp img {
+  margin-right: 6px;
+  height: 12px;
+}
+.main .container-mp p {
+  margin: 0;
+  font-size: 14.722px;
+  font-style: normal;
+  font-weight: 300;
+}
+.main .container-share {
+  background: #1A1A1A;
+  height: 247px;
+  padding: 24px 16px 0px 16px;
+}
+.main .container-share .title img {
+  float: left;
+  margin-right: 9px;
+}
+.main .container-share h1 {
+  margin: 0;
+  font-size: 19.634px;
+  font-style: normal;
+  font-weight: 700;
+}
+.main .container-share p {
+  font-size: 10.781px;
+  font-style: normal;
+  font-weight: 300;
+}
+.main .container-share .ts {
+  text-decoration: underline;
+  color: #C4C4C4;
+}
+.main .container-share input#link {
+  width: 220px;
+  height: 38px;
+  padding: 0 10px;
+  border: none;
+  background: black;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 2px;
+}
+.main .container-share input#button {
+  width: 90px;
+  height: 38px;
+  padding: 0;
+  font-size: 17px;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
+}
+.main .container-share .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 41px;
+  margin: 20px 10px 0px 10px;
+}
+.main .container-share .social-media a .wts {
+  scale: 1.4;
+}
+.main .container-share .v-bar {
+  background: #ffffff;
+  width: 1px;
+  height: 41px;
+}
+.main h2 {
+  font-size: 14.72px;
+  font-weight: 300;
+}
+.main .my-list {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px 6px 25px;
+}
+.main .my-list h2 {
+  margin: 0;
+}
+.main .my-list img {
+  margin-right: 8px;
+}
+.main .h-bar {
+  background: #424242;
+  height: 1px;
+  width: 100%;
+}
+.main .container-bottom {
+  margin: 0px 0px 100px 25px;
+}
+.main .container-bottom h2 {
+  margin: 13.5px 0px;
+}
+.main .container-bottom h2:nth-last-child(4) {
+  margin-top: 22.5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer .bottom-bar {
+  background: #121212;
+  padding-top: 10px;
+  font-size: 8.2px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10.4px;
+  letter-spacing: 0.26px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .bottom-bar .bb-element {
+  opacity: 0.6;
+}
+.footer .bottom-bar .bb-element:nth-last-child(1) {
+  opacity: 1;
+}
+.footer .bottom-bar .bb-element p {
+  margin: 3px 0px;
+}
+.footer .container-ib {
+  order: 1;
+  background: black;
+  height: 18px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=more.css.map */

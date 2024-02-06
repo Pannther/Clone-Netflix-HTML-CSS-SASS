@@ -1,0 +1,177 @@
+body {
+  background: black;
+  font-family: Helvetica, "Segoe UI", sans-serif;
+  color: white;
+  margin: 0;
+}
+body p {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.topbar {
+  width: 100%;
+  position: absolute;
+}
+.topbar .topbar-phone {
+  width: 100%;
+  margin: 13px 0px;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+}
+.topbar .topbar-phone .hour {
+  position: absolute;
+  left: 0;
+  margin-left: 35px;
+}
+.topbar .topbar-phone .phone-logo {
+  margin-right: 15px;
+}
+.topbar .topbar-phone .phone-logo img {
+  margin: 0px 2.5px;
+}
+.topbar nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 45px;
+}
+.topbar nav a {
+  font-size: 17.2px;
+  font-weight: 400;
+  line-height: 30.447px;
+  letter-spacing: 0.762px;
+  color: white;
+  text-decoration: none;
+}
+
+.background img {
+  width: 100%;
+}
+
+.main .background-serie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13.642px;
+  font-style: normal;
+  font-weight: 400;
+  height: 48px;
+}
+.main .background-serie a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.main .background-serie .my-list {
+  text-align: center;
+  margin: 0px 38px 0px 48px;
+}
+.main .background-serie .my-list p {
+  margin: 0px;
+}
+.main .background-serie .info {
+  text-align: center;
+  margin: 0px 48px 0px 38px;
+}
+.main .background-serie .info p {
+  margin: 0px;
+}
+.main .background-serie .play {
+  background: #C4C4C4;
+  height: 45px;
+  width: 110px;
+  border-radius: 5.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .background-serie .play img {
+  height: 30px;
+  width: 72px;
+}
+.main .preview h2 {
+  margin: 42px 0px 0px 16px;
+  font-size: 26.748px;
+  font-style: normal;
+  font-weight: 700;
+}
+.main .preview .bulle {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 0px 28px 0px;
+}
+.main .preview .bulle a:nth-last-child(4) {
+  margin-left: 10px;
+}
+.main h3 {
+  margin: 22px 0px 14px 16px;
+  font-size: 20.921px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.057px;
+}
+.main .cwf-panther h3 {
+  margin: 28px 0px 22px 16px;
+  font-size: 20.921px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.057px;
+}
+.main .cwf-panther .serie {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+.main .cwf-panther .serie a:nth-last-child(4) {
+  margin-left: 10px;
+}
+.main .popular-on-netflix .serie, .main .trending-now .serie {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+.main .popular-on-netflix .serie a:nth-last-child(4), .main .trending-now .serie a:nth-last-child(4) {
+  margin-left: 10px;
+}
+.main .bottom {
+  height: 100px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer .bottom-bar {
+  background: #121212;
+  padding-top: 10px;
+  font-size: 8.2px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10.4px;
+  letter-spacing: 0.26px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .bottom-bar .bb-element {
+  opacity: 0.6;
+}
+.footer .bottom-bar .bb-element:nth-last-child(5) {
+  opacity: 1;
+}
+.footer .bottom-bar .bb-element p {
+  margin: 3px 0px;
+}
+.footer .container-ib {
+  order: 1;
+  background: black;
+  height: 18px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=home.css.map */
