@@ -17,7 +17,7 @@
 .topbar nav li:hover .hidden {
   background: rgba(0, 0, 0, 0.725);
   backdrop-filter: blur(6px);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
