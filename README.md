@@ -3,7 +3,7 @@
 ### J’ai réalisé l'intégration d’une maquette iphone du clone de netflix afin de mettre en application mon apprentissage de la base du développement web.
 
 ## 📏Support design 
-Iphone (width: 370 a 460px)
+Iphone (width: 370 a 460px) 
 
 ## 📦Technologie utilisées
 
